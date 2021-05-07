@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "@workday/canvas-kit-css/index.scss";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <form>
+      <fieldset>
+        <legend>Fruit juice size</legend>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          <input type="radio" name="size" id="size_1" value="small" />
+          <label htmlFor="size_1">Small</label>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <p>
+          <input type="radio" name="size" id="size_2" value="medium" />
+          <label htmlFor="size_2">Medium</label>
+        </p>
+        <p>
+          <input type="radio" name="size" id="size_3" value="large" />
+          <label htmlFor="size_3">Large</label>
+        </p>
+      </fieldset>
+    </form>
   );
 }
 

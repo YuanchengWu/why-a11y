@@ -2133,6 +2133,225 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
+"@workday/canvas-colors-web@^2.0.0":
+  version "2.0.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-colors-web/-/canvas-colors-web-2.0.0.tgz#1e50e4ab70a00d8ba6037536a328ac227ce2274f"
+  integrity sha1-HlDkq3CgDYumA3U2oyisInziJ08=
+
+"@workday/canvas-depth-web@^0.16.4":
+  version "0.16.4"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-depth-web/-/@workday/canvas-depth-web-0.16.4.tgz#3714a1a955055386a2b70cc05852162b1e056bf2"
+  integrity sha1-NxShqVUFU4aitwzAWFIWKx4Fa/I=
+
+"@workday/canvas-kit-css-action-bar@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-action-bar/-/canvas-kit-css-action-bar-4.7.0.tgz#12bf8f36511f7cabf4e061c69db7778909ff909f"
+  integrity sha1-Er+PNlEffKv04GHGnbd3iQn/kJ8=
+  dependencies:
+    "@workday/canvas-kit-css-button" "^4.7.0"
+    "@workday/canvas-kit-css-core" "^4.7.0"
+
+"@workday/canvas-kit-css-badge@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-badge/-/canvas-kit-css-badge-4.7.0.tgz#fefeb052c18b09472a75af3a496235bd83ff0b54"
+  integrity sha1-/v6wUsGLCUcqda86SWI1vYP/C1Q=
+
+"@workday/canvas-kit-css-banner@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-banner/-/canvas-kit-css-banner-4.7.0.tgz#b69a1842e45baa45944a34c220d330884209168f"
+  integrity sha1-tpoYQuRbqkWUSjTCINMwiEIJFo8=
+  dependencies:
+    "@workday/canvas-kit-css-core" "^4.7.0"
+    "@workday/canvas-system-icons-web" "1.0.41"
+
+"@workday/canvas-kit-css-button@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-button/-/canvas-kit-css-button-4.7.0.tgz#580397663778d1df3b4b65b9f99dda4e747996d6"
+  integrity sha1-WAOXZjd40d87S2W5+Z3aTnR5ltY=
+  dependencies:
+    "@workday/canvas-kit-css-core" "^4.7.0"
+    "@workday/canvas-system-icons-web" "1.0.41"
+
+"@workday/canvas-kit-css-card@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-card/-/canvas-kit-css-card-4.7.0.tgz#78487fc73622d39fd9bee7b2f22b94bee41b060a"
+  integrity sha1-eEh/xzYi05/Zvuey8iuUvuQbBgo=
+  dependencies:
+    "@workday/canvas-kit-css-core" "^4.7.0"
+
+"@workday/canvas-kit-css-checkbox@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-checkbox/-/canvas-kit-css-checkbox-4.7.0.tgz#252193e452ba4787c8836fabc60bc358dc3fc75b"
+  integrity sha1-JSGT5FK6R4fIg2+rxgvDWNw/x1s=
+  dependencies:
+    "@workday/canvas-kit-css-common" "^4.7.0"
+    "@workday/canvas-kit-css-core" "^4.7.0"
+
+"@workday/canvas-kit-css-common@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-common/-/canvas-kit-css-common-4.7.0.tgz#798bfd77ef803af904aea1392ffd4e4228bca7f7"
+  integrity sha1-eYv9d++AOvkErqE5L/1OQii8p/c=
+  dependencies:
+    "@workday/canvas-kit-css-core" "^4.7.0"
+
+"@workday/canvas-kit-css-core@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-core/-/canvas-kit-css-core-4.7.0.tgz#4bcf40582b50e4e31454b3c18dc609c55425830f"
+  integrity sha1-S89AWCtQ5OMUVLPBjcYJxVQlgw8=
+  dependencies:
+    "@workday/canvas-colors-web" "^2.0.0"
+    "@workday/canvas-depth-web" "^0.16.4"
+
+"@workday/canvas-kit-css-form-field@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-form-field/-/canvas-kit-css-form-field-4.7.0.tgz#3ea4d088cd80c9d9c989ee46e960d2e0c0f9b27c"
+  integrity sha1-PqTQiM2AydnJie5G6WDS4MD5snw=
+  dependencies:
+    "@workday/canvas-kit-css-common" "^4.7.0"
+    "@workday/canvas-kit-css-core" "^4.7.0"
+    "@workday/canvas-system-icons-web" "1.0.41"
+
+"@workday/canvas-kit-css-icon@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-icon/-/canvas-kit-css-icon-4.7.0.tgz#ae8a69923de8f2f93427d7d3cf4b6c6da68ec2c0"
+  integrity sha1-roppkj3o8vk0J9fTz0tsbaaOwsA=
+  dependencies:
+    "@workday/canvas-colors-web" "^2.0.0"
+    "@workday/canvas-kit-css-core" "^4.7.0"
+    svg-injector "^1.1.3"
+    to-slug-case "^1.0.0"
+
+"@workday/canvas-kit-css-layout@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-layout/-/canvas-kit-css-layout-4.7.0.tgz#85c0d2f68d19b6273a61a1ed7d9dd0cc03fff61d"
+  integrity sha1-hcDS9o0Ztic6YaHtfZ3QzAP/9h0=
+  dependencies:
+    "@workday/canvas-kit-css-core" "^4.7.0"
+
+"@workday/canvas-kit-css-loading-animation@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-loading-animation/-/canvas-kit-css-loading-animation-4.7.0.tgz#9868ae48b384fadaf718007db71ba40e8b0f031c"
+  integrity sha1-mGiuSLOE+tr3GAB9txukDosPAxw=
+  dependencies:
+    "@workday/canvas-kit-css-core" "^4.7.0"
+
+"@workday/canvas-kit-css-menu@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-menu/-/canvas-kit-css-menu-4.7.0.tgz#e145857d99f614202e6a33b9be854fb87ac7b071"
+  integrity sha1-4UWFfZn2FCAuajO5voVPuHrHsHE=
+  dependencies:
+    "@workday/canvas-kit-css-core" "^4.7.0"
+
+"@workday/canvas-kit-css-modal@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-modal/-/canvas-kit-css-modal-4.7.0.tgz#f43504bed3415eb7d3b8fbdc40eac5026ba298b5"
+  integrity sha1-9DUEvtNBXrfTuPvcQOrFAmuimLU=
+  dependencies:
+    "@workday/canvas-kit-css-core" "^4.7.0"
+    "@workday/canvas-kit-css-popup" "^4.7.0"
+
+"@workday/canvas-kit-css-page-header@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-page-header/-/canvas-kit-css-page-header-4.7.0.tgz#9e1de9ce3783ddd08b08a73a318815fb4bb4e00c"
+  integrity sha1-nh3pzjeD3dCLCKc6MYgV+0u04Aw=
+  dependencies:
+    "@workday/canvas-kit-css-core" "^4.7.0"
+
+"@workday/canvas-kit-css-popup@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-popup/-/canvas-kit-css-popup-4.7.0.tgz#8e013cc5cf79e02e3e40c32110d11b1623fdf25b"
+  integrity sha1-jgE8xc954C4+QMMhENEbFiP98ls=
+  dependencies:
+    "@workday/canvas-kit-css-card" "^4.7.0"
+    "@workday/canvas-kit-css-core" "^4.7.0"
+
+"@workday/canvas-kit-css-radio@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-radio/-/canvas-kit-css-radio-4.7.0.tgz#74556bac37fb5344c787e0d4fc7813b1401aaf85"
+  integrity sha1-dFVrrDf7U0THh+DU/HgTsUAar4U=
+  dependencies:
+    "@workday/canvas-kit-css-common" "^4.7.0"
+    "@workday/canvas-kit-css-core" "^4.7.0"
+
+"@workday/canvas-kit-css-select@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-select/-/canvas-kit-css-select-4.7.0.tgz#9353b8e7f8d36b42dcb78a61b653dfbfa31f3270"
+  integrity sha1-k1O45/jTa0Lct4phtlPfv6MfMnA=
+  dependencies:
+    "@workday/canvas-kit-css-common" "^4.7.0"
+    "@workday/canvas-kit-css-core" "^4.7.0"
+
+"@workday/canvas-kit-css-table@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-table/-/canvas-kit-css-table-4.7.0.tgz#516ff6b8e13a59878c251cb5c96233060a19d36b"
+  integrity sha1-UW/2uOE6WYeMJRy1yWIzBgoZ02s=
+  dependencies:
+    "@workday/canvas-kit-css-core" "^4.7.0"
+    "@workday/canvas-kit-css-icon" "^4.7.0"
+
+"@workday/canvas-kit-css-text-area@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-text-area/-/canvas-kit-css-text-area-4.7.0.tgz#f632680114f643c781014edc240565da8d06d58e"
+  integrity sha1-9jJoART2Q8eBAU7cJAVl2o0G1Y4=
+  dependencies:
+    "@workday/canvas-kit-css-common" "^4.7.0"
+    "@workday/canvas-kit-css-core" "^4.7.0"
+
+"@workday/canvas-kit-css-text-input@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-text-input/-/canvas-kit-css-text-input-4.7.0.tgz#6bdfc4c4c6f5bbe97b25853738d3492f454b399d"
+  integrity sha1-a9/ExMb1u+l7JYU3ONNJL0VLOZ0=
+  dependencies:
+    "@workday/canvas-kit-css-common" "^4.7.0"
+    "@workday/canvas-kit-css-core" "^4.7.0"
+
+"@workday/canvas-kit-css-tooltip@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css-tooltip/-/canvas-kit-css-tooltip-4.7.0.tgz#033295fc73a8162bafeae435f51e8ede474fbaf9"
+  integrity sha1-AzKV/HOoFiuv6uQ19R6O3kdPuvk=
+  dependencies:
+    "@workday/canvas-kit-css-core" "^4.7.0"
+
+"@workday/canvas-kit-css@^4.7.0":
+  version "4.7.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-css/-/canvas-kit-css-4.7.0.tgz#cb31ed5a6d834db94da5096160c868041bd3d9e9"
+  integrity sha1-yzHtWm2DTblNpQlhYMhoBBvT2ek=
+  dependencies:
+    "@workday/canvas-kit-css-action-bar" "^4.7.0"
+    "@workday/canvas-kit-css-badge" "^4.7.0"
+    "@workday/canvas-kit-css-banner" "^4.7.0"
+    "@workday/canvas-kit-css-button" "^4.7.0"
+    "@workday/canvas-kit-css-card" "^4.7.0"
+    "@workday/canvas-kit-css-checkbox" "^4.7.0"
+    "@workday/canvas-kit-css-common" "^4.7.0"
+    "@workday/canvas-kit-css-core" "^4.7.0"
+    "@workday/canvas-kit-css-form-field" "^4.7.0"
+    "@workday/canvas-kit-css-icon" "^4.7.0"
+    "@workday/canvas-kit-css-layout" "^4.7.0"
+    "@workday/canvas-kit-css-loading-animation" "^4.7.0"
+    "@workday/canvas-kit-css-menu" "^4.7.0"
+    "@workday/canvas-kit-css-modal" "^4.7.0"
+    "@workday/canvas-kit-css-page-header" "^4.7.0"
+    "@workday/canvas-kit-css-popup" "^4.7.0"
+    "@workday/canvas-kit-css-radio" "^4.7.0"
+    "@workday/canvas-kit-css-select" "^4.7.0"
+    "@workday/canvas-kit-css-table" "^4.7.0"
+    "@workday/canvas-kit-css-text-area" "^4.7.0"
+    "@workday/canvas-kit-css-text-input" "^4.7.0"
+    "@workday/canvas-kit-css-tooltip" "^4.7.0"
+
+"@workday/canvas-system-icons-web@1.0.41":
+  version "1.0.41"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-system-icons-web/-/canvas-system-icons-web-1.0.41.tgz#ad764e1ba24e5d932270617c1515de6386386a92"
+  integrity sha1-rXZOG6JOXZMicGF8FRXeY4Y4apI=
+  dependencies:
+    "@workday/design-assets-types" "0.2.8"
+
+"@workday/design-assets-types@0.2.8":
+  version "0.2.8"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/design-assets-types/-/design-assets-types-0.2.8.tgz#54026b4e6ea79861b12837a7deb83db9a16caad4"
+  integrity sha1-VAJrTm6nmGGxKDen3rg9uaFsqtQ=
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@xtuc/ieee754/-/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"
@@ -3166,6 +3385,21 @@ check-types@^11.1.1:
   resolved "https://registry.yarnpkg.com/check-types/-/check-types-11.1.2.tgz#86a7c12bf5539f6324eb0e70ca8896c0e38f3e2f"
   integrity sha512-tzWzvgePgLORb9/3a0YenggReLKAIb2owL03H2Xdoe5pKcUyWRSEQ8xfCar8t2SIAuEDwtmx2da1YB52YuHQMQ==
 
+"chokidar@>=3.0.0 <4.0.0", chokidar@^3.4.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.1.tgz#ee9ce7bbebd2b79f49f304799d5468e31e14e68a"
+  integrity sha512-9+s+Od+W0VJJzawDma/gvBNQqkTiqYTWLuZoyAsivsI4AaWTCzHG06/TMjsf1cYe9Cb97UCEhjz7HvnPk2p/tw==
+  dependencies:
+    anymatch "~3.1.1"
+    braces "~3.0.2"
+    glob-parent "~5.1.0"
+    is-binary-path "~2.1.0"
+    is-glob "~4.0.1"
+    normalize-path "~3.0.0"
+    readdirp "~3.5.0"
+  optionalDependencies:
+    fsevents "~2.3.1"
+
 chokidar@^2.1.8:
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
@@ -3184,21 +3418,6 @@ chokidar@^2.1.8:
     upath "^1.1.1"
   optionalDependencies:
     fsevents "^1.2.7"
-
-chokidar@^3.4.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.1.tgz#ee9ce7bbebd2b79f49f304799d5468e31e14e68a"
-  integrity sha512-9+s+Od+W0VJJzawDma/gvBNQqkTiqYTWLuZoyAsivsI4AaWTCzHG06/TMjsf1cYe9Cb97UCEhjz7HvnPk2p/tw==
-  dependencies:
-    anymatch "~3.1.1"
-    braces "~3.0.2"
-    glob-parent "~5.1.0"
-    is-binary-path "~2.1.0"
-    is-glob "~4.0.1"
-    normalize-path "~3.0.0"
-    readdirp "~3.5.0"
-  optionalDependencies:
-    fsevents "~2.3.1"
 
 chownr@^1.1.1:
   version "1.1.4"
@@ -8717,6 +8936,11 @@ prepend-http@^1.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
 
+prettier@^2.2.1:
+  version "2.2.1"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/prettier/-/prettier-2.2.1.tgz#795a1a78dd52f073da0cd42b21f9c91381923ff5"
+  integrity sha1-eVoaeN1S8HPaDNQrIfnJE4GSP/U=
+
 pretty-bytes@^5.3.0:
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-5.6.0.tgz#356256f643804773c82f64723fe78c92c62beaeb"
@@ -9578,6 +9802,13 @@ sass-loader@^10.0.5:
     schema-utils "^3.0.0"
     semver "^7.3.2"
 
+sass@^1.32.12:
+  version "1.32.12"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/sass/-/sass-1.32.12.tgz#a2a47ad0f1c168222db5206444a30c12457abb9f"
+  integrity sha1-oqR60PHBaCIttSBkRKMMEkV6u58=
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
+
 sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
@@ -10299,6 +10530,11 @@ supports-hyperlinks@^2.0.0:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
 
+svg-injector@^1.1.3:
+  version "1.1.3"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/svg-injector/-/svg-injector-1.1.3.tgz#8fba18d7419e5f818e712c4f82d83ee357610e61"
+  integrity sha1-j7oY10GeX4GOcSxPgtg+41dhDmE=
+
 svg-parser@^2.0.2:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/svg-parser/-/svg-parser-2.0.4.tgz#fdc2e29e13951736140b76cb122c8ee6630eb6b5"
@@ -10484,6 +10720,11 @@ to-fast-properties@^2.0.0:
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
   integrity sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=
 
+to-no-case@^1.0.0:
+  version "1.0.2"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/to-no-case/-/to-no-case-1.0.2.tgz#c722907164ef6b178132c8e69930212d1b4aa16a"
+  integrity sha1-xyKQcWTvaxeBMsjmmTAhLRtKoWo=
+
 to-object-path@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/to-object-path/-/to-object-path-0.3.0.tgz#297588b7b0e7e0ac08e04e672f85c1f4999e17af"
@@ -10515,6 +10756,20 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     extend-shallow "^3.0.2"
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
+
+to-slug-case@^1.0.0:
+  version "1.0.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/to-slug-case/-/to-slug-case-1.0.0.tgz#92acde53471055a33c830719e8eb78387206d813"
+  integrity sha1-kqzeU0cQVaM8gwcZ6Ot4OHIG2BM=
+  dependencies:
+    to-space-case "^1.0.0"
+
+to-space-case@^1.0.0:
+  version "1.0.0"
+  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/to-space-case/-/to-space-case-1.0.0.tgz#b052daafb1b2b29dc770cea0163e5ec0ebc9fc17"
+  integrity sha1-sFLar7Gysp3HcM6gFj5ewOvJ/Bc=
+  dependencies:
+    to-no-case "^1.0.0"
 
 toidentifier@1.0.0:
   version "1.0.0"
