@@ -1,25 +1,28 @@
-import "@workday/canvas-kit-css/index.scss";
+import "./App.css";
+import "@workday/canvas-kit-css-button/index.scss";
+import { useState } from "react";
 
-function App() {
+import { Form } from "./Form";
+
+export default function App(): JSX.Element {
+  const [showPage, setShowPage] = useState(false);
+
+  function handleClick() {
+    setShowPage(true);
+  }
+
   return (
-    <form>
-      <fieldset>
-        <legend>Fruit juice size</legend>
-        <p>
-          <input type="radio" name="size" id="size_1" value="small" />
-          <label htmlFor="size_1">Small</label>
-        </p>
-        <p>
-          <input type="radio" name="size" id="size_2" value="medium" />
-          <label htmlFor="size_2">Medium</label>
-        </p>
-        <p>
-          <input type="radio" name="size" id="size_3" value="large" />
-          <label htmlFor="size_3">Large</label>
-        </p>
-      </fieldset>
-    </form>
+    <>
+      <div className={`cover ${showPage && "moved"}`}>
+        <div className="centered">
+          <button className="wdc-btn wdc-btn-size-l" onClick={handleClick}>
+            Start!
+          </button>
+        </div>
+      </div>
+      <div className="centered background">
+        <Form />
+      </div>
+    </>
   );
 }
-
-export default App;

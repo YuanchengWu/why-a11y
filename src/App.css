@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+}
+
+form {
+  border: 3px solid #ffb4a2;
+  border-radius: 1rem;
+  background-color: white;
+  padding: 1.5rem 5rem 0 1.5rem;
+}
+
+.cover {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-image: url(./background.svg),
+    radial-gradient(500px, #521a22, #63242d 20%, #71444b);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s ease;
+  z-index: 1;
+}
+
+.moved {
+  transform: translateY(100vh);
+}
+
+.centered {
+  display: flex;
+  position: absolute;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.background {
+  background-color: #b5838d;
+}
