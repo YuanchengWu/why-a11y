@@ -6,17 +6,37 @@ import { Form } from "./Form";
 
 export default function App(): JSX.Element {
   const [showPage, setShowPage] = useState(false);
+  const [start, setStart] = useState(false);
 
-  function handleClick() {
+  function handleStartClick() {
+    setStart(true);
+  }
+
+  function handleUnveil() {
     setShowPage(true);
   }
 
   return (
     <>
-      <div className={`cover ${showPage && "moved"}`}>
+      <div id="cover" className={`${start && "moved"}`} aria-hidden>
         <div className="centered">
-          <button className="wdc-btn wdc-btn-size-l" onClick={handleClick}>
+          <button
+            className="wdc-btn wdc-btn-size-l"
+            onClick={handleStartClick}
+            tabIndex={-1}
+          >
             Start!
+          </button>
+        </div>
+      </div>
+      <div id="veil" className={`${showPage && "moved"}`} aria-hidden>
+        <div>
+          <button
+            className="wdc-btn wdc-btn-size-s developer-btn"
+            onClick={handleUnveil}
+            tabIndex={-1}
+          >
+            I am the developer (unhide)
           </button>
         </div>
       </div>

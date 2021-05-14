@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  overflow: hidden;
 }
 
 form {
@@ -9,14 +10,26 @@ form {
   padding: 1.5rem 5rem 0 1.5rem;
 }
 
-.cover {
-  height: 100vh;
-  width: 100%;
+#cover {
   position: relative;
+  /* overflow: hidden; */
+  z-index: 2;
+  height: 108vh;
+  width: 100%;
   background-image: url(./background.svg),
     radial-gradient(500px, #521a22, #63242d 20%, #71444b);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  transition: all 1s ease;
+}
+
+#veil {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #6d6875;
   transition: all 1s ease;
   z-index: 1;
 }
@@ -35,6 +48,21 @@ form {
   width: 100%;
 }
 
+.developer-btn {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+
 .background {
   background-color: #b5838d;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
