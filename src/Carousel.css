@@ -1,5 +1,17 @@
-h3 {
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+h2 {
   font-size: 2.5rem;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .icon-cards {
@@ -10,11 +22,9 @@ h3 {
   max-width: 380px;
   max-height: 250px;
   margin: 0;
-  color: black;
+  color: white;
   perspective: 1000px;
   transform-origin: center;
-  font-family: -apple-system, Roboto, "Segoe UI", Oxygen, Ubuntu, Cantarell,
-    "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .icon-cards-content {
@@ -45,8 +55,11 @@ h3 {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   transform-origin: center;
-  align-items: center;
+  background-size: cover;
+  background-position: center;
+  align-items: flex-end;
   justify-content: center;
+  text-shadow: 0px 0px 10px black;
 }
 
 .item:focus {
@@ -55,17 +68,17 @@ h3 {
 }
 
 .item:nth-child(1) {
-  background: #fdd94f;
+  background-image: url(./frogger.jpg);
   transform: rotateY(0) translateZ(35vw);
 }
 
 .item:nth-child(2) {
-  background: #f87949;
+  background-image: url(./contra.jpg);
   transform: rotateY(120deg) translateZ(35vw);
 }
 
 .item:nth-child(3) {
-  background: #fbab48;
+  background-image: url(./Castlevania.jpg);
   transform: rotateY(240deg) translateZ(35vw);
 }
 
