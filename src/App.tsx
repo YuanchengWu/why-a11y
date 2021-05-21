@@ -3,7 +3,7 @@ import "@workday/canvas-kit-css-button/index.scss";
 import { useState } from "react";
 import { useKonami } from "react-konami-code";
 
-import { Form } from "./Form";
+import { Carousel } from "./Carousel";
 
 export default function App(): JSX.Element {
   const [showPage, setShowPage] = useState(false);
@@ -31,7 +31,7 @@ export default function App(): JSX.Element {
           <button
             className="wdc-btn wdc-btn-size-l"
             onClick={handleStartClick}
-            tabIndex={-1}
+            tabIndex={start ? -1 : 0}
           >
             Start!
           </button>
@@ -39,11 +39,13 @@ export default function App(): JSX.Element {
       </div>
       <div id="veil" className={`${showPage && "moved"}`} aria-hidden />
       <div className="centered background">
-        <Form />
+        <Carousel />
       </div>
       <button
         className="wdc-btn wdc-btn-size-s reset-btn"
         onClick={handleReset}
+        tabIndex={showPage ? 0 : -1}
+        aria-hidden
       >
         Reset
       </button>
