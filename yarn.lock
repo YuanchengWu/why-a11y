@@ -1091,7 +1091,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.2.0", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.9.2":
   version "7.14.0"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
   integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
@@ -1538,11 +1538,6 @@
     native-url "^0.2.6"
     schema-utils "^2.6.5"
     source-map "^0.7.3"
-
-"@popperjs/core@^2.1.1":
-  version "2.9.2"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@popperjs/core/-/core-2.9.2.tgz#adea7b6953cbb34651766b0548468e743c6a2353"
-  integrity sha1-rep7aVPLs0ZRdmsFSEaOdDxqI1M=
 
 "@rollup/plugin-node-resolve@^7.1.1":
   version "7.1.3"
@@ -2261,51 +2256,6 @@
     "@workday/canvas-kit-react-common" "^4.7.0"
     "@workday/canvas-kit-react-core" "^4.7.0"
 
-"@workday/canvas-kit-popup-stack@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-popup-stack/-/canvas-kit-popup-stack-4.7.0.tgz#4c34d74d196e78588279398ff80cf7f273f27347"
-  integrity sha1-TDTXTRlueFiCeTmP+Az38nPyc0c=
-
-"@workday/canvas-kit-react-action-bar@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-action-bar/-/canvas-kit-react-action-bar-4.7.0.tgz#c7eb5cf77b0bd34c1adad8c356dc5c26c30001a2"
-  integrity sha1-x+tc93sL00wa2tjDVtxcJsMAAaI=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/styled" "^10.0.27"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-
-"@workday/canvas-kit-react-avatar@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-avatar/-/canvas-kit-react-avatar-4.7.0.tgz#9d12a44c45d740f2347ec666ff2992c6d2432048"
-  integrity sha1-nRKkTEXXQPI0fsZm/ymSxtJDIEg=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/is-prop-valid" "^0.8.2"
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-    "@workday/canvas-kit-react-icon" "^4.7.0"
-    "@workday/canvas-system-icons-web" "1.0.41"
-
-"@workday/canvas-kit-react-badge@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-badge/-/canvas-kit-react-badge-4.7.0.tgz#cac81aa978dda9d29ebf69faa9c51f9647b5a7a2"
-  integrity sha1-ysgaqXjdqdKev2n6qcUflke1p6I=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/styled" "^10.0.27"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-
-"@workday/canvas-kit-react-banner@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-banner/-/canvas-kit-react-banner-4.7.0.tgz#d3112079d8a5cf2b43af7f2e853e35fcd656d01f"
-  integrity sha1-0xEgedilzytDr38uhT41/NZW0B8=
-  dependencies:
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-    "@workday/canvas-kit-react-icon" "^4.7.0"
-    "@workday/canvas-system-icons-web" "1.0.41"
-
 "@workday/canvas-kit-react-button@^4.7.0":
   version "4.7.0"
   resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-button/-/canvas-kit-react-button-4.7.0.tgz#9e4591dd0745b601f8f8d581cf7090efb90875d2"
@@ -2320,40 +2270,6 @@
     "@workday/canvas-kit-react-icon" "^4.7.0"
     "@workday/canvas-system-icons-web" "1.0.41"
     "@workday/design-assets-types" "^0.2.4"
-
-"@workday/canvas-kit-react-card@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-card/-/canvas-kit-react-card-4.7.0.tgz#cfe5dbc7e09d01ee800255a55157d98a5fedceb6"
-  integrity sha1-z+Xbx+CdAe6AAlWlUVfZil/tzrY=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/is-prop-valid" "^0.8.2"
-    "@emotion/styled" "^10.0.27"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-
-"@workday/canvas-kit-react-checkbox@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-checkbox/-/canvas-kit-react-checkbox-4.7.0.tgz#7a0a6a369f0099b446cc4e57cfc9890bcfc9bae7"
-  integrity sha1-egpqNp8AmbRGzE5Xz8mJC8/Juuc=
-  dependencies:
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-    "@workday/canvas-kit-react-icon" "^4.7.0"
-    "@workday/canvas-system-icons-web" "1.0.41"
-
-"@workday/canvas-kit-react-color-picker@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-color-picker/-/canvas-kit-react-color-picker-4.7.0.tgz#916c0972a4371c829c86e07f5ae24b963a8ac5d1"
-  integrity sha1-kWwJcqQ3HIKchuB/WuJLljqKxdE=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/styled" "^10.0.27"
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-    "@workday/canvas-kit-react-icon" "^4.7.0"
-    "@workday/canvas-kit-react-text-input" "^4.7.0"
-    "@workday/canvas-system-icons-web" "1.0.41"
-    chroma-js "^2.1.0"
 
 "@workday/canvas-kit-react-common@^4.7.0":
   version "4.7.0"
@@ -2370,16 +2286,6 @@
     rtl-css-js "^1.13.1"
     uuid "^3.3.3"
 
-"@workday/canvas-kit-react-cookie-banner@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-cookie-banner/-/canvas-kit-react-cookie-banner-4.7.0.tgz#740620340519fd8b86cbe36ff881820edff35cba"
-  integrity sha1-dAYgNAUZ/YuGy+Nv+IGCDt/zXLo=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/styled" "^10.0.27"
-    "@workday/canvas-kit-react-button" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-
 "@workday/canvas-kit-react-core@^4.7.0":
   version "4.7.0"
   resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-core/-/canvas-kit-react-core-4.7.0.tgz#c44b8f8a961ccbc2f2502ec2bd5662867b21818e"
@@ -2393,18 +2299,6 @@
     element-closest "^3.0.2"
     lodash "^4.17.14"
 
-"@workday/canvas-kit-react-form-field@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-form-field/-/canvas-kit-react-form-field-4.7.0.tgz#da1b85b4eafc3cf2dbca0b6c6db632fb84ac3077"
-  integrity sha1-2huFtOr8PPLbygtsbbYy+4SsMHc=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/styled" "^10.0.27"
-    "@workday/canvas-kit-labs-react-core" "^4.7.0"
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-    uuid "^3.3.3"
-
 "@workday/canvas-kit-react-icon@^4.7.0":
   version "4.7.0"
   resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-icon/-/canvas-kit-react-icon-4.7.0.tgz#a391e3076e38ccaa2ebc1e69d7b1ea166e4ee40e"
@@ -2416,228 +2310,6 @@
     "@workday/canvas-kit-react-common" "^4.7.0"
     "@workday/canvas-kit-react-core" "^4.7.0"
     "@workday/design-assets-types" "^0.2.4"
-
-"@workday/canvas-kit-react-layout@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-layout/-/canvas-kit-react-layout-4.7.0.tgz#fda7941c9a169b66a59dee4d9ed044a3b927e1c5"
-  integrity sha1-/aeUHJoWm2alne5NntBEo7kn4cU=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/is-prop-valid" "^0.8.2"
-    "@emotion/styled" "^10.0.27"
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-
-"@workday/canvas-kit-react-loading-animation@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-loading-animation/-/canvas-kit-react-loading-animation-4.7.0.tgz#e26c4cffc68a441571303cfebf61fd634f5b04e9"
-  integrity sha1-4mxM/8aKRBVxMDz+v2H9Y09bBOk=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/styled" "^10.0.27"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-
-"@workday/canvas-kit-react-modal@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-modal/-/canvas-kit-react-modal-4.7.0.tgz#d8b6ecad1748675cf0e1d0e48838b5fef4e6fad9"
-  integrity sha1-2LbsrRdIZ1zw4dDkiDi1/vTm+tk=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/styled" "^10.0.27"
-    "@workday/canvas-kit-popup-stack" "^4.7.0"
-    "@workday/canvas-kit-react-popup" "^4.7.0"
-    "@workday/canvas-kit-react-radio" "^4.7.0"
-
-"@workday/canvas-kit-react-page-header@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-page-header/-/canvas-kit-react-page-header-4.7.0.tgz#f43eab95e47de636b0ac98912e91825fb4bda57b"
-  integrity sha1-9D6rleR95jawrJiRLpGCX7S9pXs=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/styled" "^10.0.27"
-    "@workday/canvas-kit-react-button" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-
-"@workday/canvas-kit-react-popup@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-popup/-/canvas-kit-react-popup-4.7.0.tgz#50c1f1bb7193a7a914b37757251663436d46cd61"
-  integrity sha1-UMHxu3GTp6kUs3dXJRZjQ21GzWE=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/is-prop-valid" "^0.8.2"
-    "@popperjs/core" "^2.1.1"
-    "@workday/canvas-kit-popup-stack" "^4.7.0"
-    "@workday/canvas-kit-react-button" "^4.7.0"
-    "@workday/canvas-kit-react-card" "^4.7.0"
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-    "@workday/canvas-system-icons-web" "1.0.41"
-    focus-trap-js "1.1.0"
-    uuid "^3.3.3"
-
-"@workday/canvas-kit-react-radio@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-radio/-/canvas-kit-react-radio-4.7.0.tgz#7cfb15ad263603a0fbe03ec6d244535146b3451d"
-  integrity sha1-fPsVrSY2A6D74D7G0kRTUUazRR0=
-  dependencies:
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-
-"@workday/canvas-kit-react-segmented-control@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-segmented-control/-/canvas-kit-react-segmented-control-4.7.0.tgz#9e106ea34a8ed2aadfd8228ff74d601c72b0b54c"
-  integrity sha1-nhBuo0qO0qrf2CKP901gHHKwtUw=
-  dependencies:
-    "@workday/canvas-kit-react-button" "^4.7.0"
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-    "@workday/canvas-system-icons-web" "1.0.41"
-
-"@workday/canvas-kit-react-select@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-select/-/canvas-kit-react-select-4.7.0.tgz#438d797d1de0ddfba543346cd931fa92fac7f09f"
-  integrity sha1-Q415fR3g3fulQzRs2TH6kvrH8J8=
-  dependencies:
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-    "@workday/canvas-kit-react-icon" "^4.7.0"
-    "@workday/canvas-system-icons-web" "1.0.41"
-
-"@workday/canvas-kit-react-side-panel@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-side-panel/-/canvas-kit-react-side-panel-4.7.0.tgz#77a4161c2dac9f527b9cd0834e7e257473a1b26e"
-  integrity sha1-d6QWHC2sn1J7nNCDTn4ldHOhsm4=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/styled" "^10.0.27"
-    "@workday/canvas-kit-react-button" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-    "@workday/canvas-system-icons-web" "1.0.41"
-    "@workday/design-assets-types" "^0.2.4"
-    lodash "^4.17.14"
-
-"@workday/canvas-kit-react-skeleton@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-skeleton/-/canvas-kit-react-skeleton-4.7.0.tgz#205957710b2dc76bd203258727c161fb4a504955"
-  integrity sha1-IFlXcQstx2vSAyWHJ8Fh+0pQSVU=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/styled" "^10.0.27"
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-
-"@workday/canvas-kit-react-status-indicator@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-status-indicator/-/canvas-kit-react-status-indicator-4.7.0.tgz#8b24db81156a1d7656898a5bb4a57e7495261399"
-  integrity sha1-iyTbgRVqHXZWiYpbtKV+dJUmE5k=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/styled" "^10.0.27"
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-    "@workday/canvas-kit-react-icon" "^4.7.0"
-    "@workday/design-assets-types" "^0.2.4"
-
-"@workday/canvas-kit-react-switch@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-switch/-/canvas-kit-react-switch-4.7.0.tgz#54540384bc3fc6860d6929ee801d8f95429e75bd"
-  integrity sha1-VFQDhLw/xoYNaSnugB2PlUKedb0=
-  dependencies:
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-
-"@workday/canvas-kit-react-table@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-table/-/canvas-kit-react-table-4.7.0.tgz#6dc27a335819c0be8d19dc29b2df1dc8ddbabdf2"
-  integrity sha1-bcJ6M1gZwL6NGdwpst8dyN26vfI=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/styled" "^10.0.27"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-    polished "^2.3.0"
-
-"@workday/canvas-kit-react-text-area@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-text-area/-/canvas-kit-react-text-area-4.7.0.tgz#0f4164daa853b762931cea4ae4680659fa19378e"
-  integrity sha1-D0Fk2qhTt2KTHOpK5GgGWfoZN44=
-  dependencies:
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-
-"@workday/canvas-kit-react-text-input@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-text-input/-/canvas-kit-react-text-input-4.7.0.tgz#ad0bdb30055fc9a926fb748be0276338ec77f6e4"
-  integrity sha1-rQvbMAVfyakm+3SL4CdjOOx39uQ=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/styled" "^10.0.27"
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-    "@workday/canvas-kit-react-icon" "^4.7.0"
-    "@workday/canvas-system-icons-web" "1.0.41"
-
-"@workday/canvas-kit-react-toast@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-toast/-/canvas-kit-react-toast-4.7.0.tgz#5900ffbff4117c42223cb87a0fb87f7e52de1296"
-  integrity sha1-WQD/v/QRfEIiPLh6D7h/flLeEpY=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/styled" "^10.0.27"
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-    "@workday/canvas-kit-react-icon" "^4.7.0"
-    "@workday/canvas-kit-react-popup" "^4.7.0"
-    "@workday/canvas-system-icons-web" "1.0.41"
-    "@workday/design-assets-types" "^0.2.4"
-
-"@workday/canvas-kit-react-tooltip@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react-tooltip/-/canvas-kit-react-tooltip-4.7.0.tgz#0311d63fe2dc2ad3f2447851ce64bf1c76d4389a"
-  integrity sha1-AxHWP+LcKtPyRHhRzmS/HHbUOJo=
-  dependencies:
-    "@emotion/core" "^10.0.28"
-    "@emotion/styled" "^10.0.27"
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-    "@workday/canvas-kit-react-popup" "^4.7.0"
-    react-innertext "^1.1.5"
-    uuid "^3.3.3"
-
-"@workday/canvas-kit-react@^4.7.0":
-  version "4.7.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/@workday/canvas-kit-react/-/canvas-kit-react-4.7.0.tgz#8194419cb6e1023bed4a0644c6a67a36246c888e"
-  integrity sha1-gZRBnLbhAjvtSgZExqZ6NiRsiI4=
-  dependencies:
-    "@workday/canvas-kit-react-action-bar" "^4.7.0"
-    "@workday/canvas-kit-react-avatar" "^4.7.0"
-    "@workday/canvas-kit-react-badge" "^4.7.0"
-    "@workday/canvas-kit-react-banner" "^4.7.0"
-    "@workday/canvas-kit-react-button" "^4.7.0"
-    "@workday/canvas-kit-react-card" "^4.7.0"
-    "@workday/canvas-kit-react-checkbox" "^4.7.0"
-    "@workday/canvas-kit-react-color-picker" "^4.7.0"
-    "@workday/canvas-kit-react-common" "^4.7.0"
-    "@workday/canvas-kit-react-cookie-banner" "^4.7.0"
-    "@workday/canvas-kit-react-core" "^4.7.0"
-    "@workday/canvas-kit-react-form-field" "^4.7.0"
-    "@workday/canvas-kit-react-icon" "^4.7.0"
-    "@workday/canvas-kit-react-layout" "^4.7.0"
-    "@workday/canvas-kit-react-loading-animation" "^4.7.0"
-    "@workday/canvas-kit-react-modal" "^4.7.0"
-    "@workday/canvas-kit-react-page-header" "^4.7.0"
-    "@workday/canvas-kit-react-popup" "^4.7.0"
-    "@workday/canvas-kit-react-radio" "^4.7.0"
-    "@workday/canvas-kit-react-segmented-control" "^4.7.0"
-    "@workday/canvas-kit-react-select" "^4.7.0"
-    "@workday/canvas-kit-react-side-panel" "^4.7.0"
-    "@workday/canvas-kit-react-skeleton" "^4.7.0"
-    "@workday/canvas-kit-react-status-indicator" "^4.7.0"
-    "@workday/canvas-kit-react-switch" "^4.7.0"
-    "@workday/canvas-kit-react-table" "^4.7.0"
-    "@workday/canvas-kit-react-text-area" "^4.7.0"
-    "@workday/canvas-kit-react-text-input" "^4.7.0"
-    "@workday/canvas-kit-react-toast" "^4.7.0"
-    "@workday/canvas-kit-react-tooltip" "^4.7.0"
 
 "@workday/canvas-space-web@^0.15.5":
   version "0.15.8"
@@ -5610,11 +5282,6 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
-
-focus-trap-js@1.1.0:
-  version "1.1.0"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/focus-trap-js/-/focus-trap-js-1.1.0.tgz#110f8fc56f694b257605afc19a1c7928ff7e57c3"
-  integrity sha1-EQ+PxW9pSyV2Ba/Bmhx5KP9+V8M=
 
 follow-redirects@^1.0.0:
   version "1.13.2"
@@ -8611,13 +8278,6 @@ pnp-webpack-plugin@1.6.4:
   dependencies:
     ts-pnp "^1.1.6"
 
-polished@^2.3.0:
-  version "2.3.3"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/polished/-/polished-2.3.3.tgz#bdbaba962ba8271b0e11aa287f2befd4c87be99a"
-  integrity sha1-vbq6liuoJxsOEaoofyvv1Mh76Zo=
-  dependencies:
-    "@babel/runtime" "^7.2.0"
-
 portfinder@^1.0.26:
   version "1.0.28"
   resolved "https://registry.yarnpkg.com/portfinder/-/portfinder-1.0.28.tgz#67c4622852bd5374dd1dd900f779f53462fac778"
@@ -9600,11 +9260,6 @@ react-error-overlay@^6.0.9:
   version "6.0.9"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
   integrity sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==
-
-react-innertext@^1.1.5:
-  version "1.1.5"
-  resolved "https://artifactory.workday.com/artifactory/api/npm/npm-virtual/react-innertext/-/react-innertext-1.1.5.tgz#8147ac54db3f7067d95f49e2d2c05a720d27d8d0"
-  integrity sha1-gUesVNs/cGfZX0ni0sBacg0n2NA=
 
 react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
