@@ -49,13 +49,13 @@ export function Carousel(): JSX.Element {
       <p></p>
       <figure className="icon-cards">
         <div className="icon-cards-content" ref={content}>
-          <article className="icon-cards item" tabIndex={1}>
+          <article className="icon-cards item" tabIndex={0}>
             <h2>Frogger</h2>
           </article>
-          <article className="icon-cards item" tabIndex={1}>
+          <article className="icon-cards item" tabIndex={0}>
             <h2>Contra</h2>
           </article>
-          <article className="icon-cards item" tabIndex={1}>
+          <article className="icon-cards item" tabIndex={0}>
             <h2>Castlevania</h2>
           </article>
         </div>

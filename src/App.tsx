@@ -1,5 +1,5 @@
 import "./App.css";
-import "@workday/canvas-kit-css-button/index.scss";
+import { Button } from "@workday/canvas-kit-react-button";
 import { useState } from "react";
 import { useKonami } from "react-konami-code";
 
@@ -28,27 +28,34 @@ export default function App(): JSX.Element {
     <>
       <div id="cover" className={`${start && "moved"}`} aria-hidden>
         <div className="centered">
-          <button
-            className="wdc-btn wdc-btn-size-l"
+          <Button
+            size={Button.Size.Large}
+            variant={Button.Variant.Secondary}
             onClick={handleStartClick}
             tabIndex={start ? -1 : 0}
           >
             Start!
-          </button>
+          </Button>
         </div>
       </div>
       <div id="veil" className={`${showPage && "moved"}`} aria-hidden />
       <div className="centered background">
         <Carousel />
       </div>
-      <button
-        className="wdc-btn wdc-btn-size-s reset-btn"
+      <Button
+        style={{
+          position: "absolute",
+          bottom: "2rem",
+          right: "2rem",
+        }}
+        size={Button.Size.Small}
+        variant={Button.Variant.Secondary}
         onClick={handleReset}
         tabIndex={showPage ? 0 : -1}
         aria-hidden
       >
         Reset
-      </button>
+      </Button>
     </>
   );
 }

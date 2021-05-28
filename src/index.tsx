@@ -2,8 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import "@workday/canvas-kit-css-core/index.scss";
-import "@workday/canvas-kit-css-core/lib/colors.scss";
 
 ReactDOM.render(
   <React.StrictMode>

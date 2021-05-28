@@ -49,12 +49,6 @@ form {
   width: 100%;
 }
 
-.reset-btn {
-  position: absolute;
-  bottom: 2rem;
-  right: 2rem;
-}
-
 .background {
   background-color: black;
 }
