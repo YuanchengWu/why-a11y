@@ -40,7 +40,7 @@ export function Carousel(): JSX.Element {
     }
   }
 
-  useInterval(rotateCarousel, 4000);
+  useInterval(rotateCarousel, 3000);
 
   return (
     <section>
